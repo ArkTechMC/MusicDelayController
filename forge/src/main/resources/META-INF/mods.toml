@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "music_delay_controller"
+version = "${version}"
+displayName = "Music Delay Controller"
+authors = "IAFEnvoy"
+description = '''
+Control background music delay as you want
+'''
+logoFile = "logo.jpg"
+
+[[dependencies.music_delay_controller]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.music_delay_controller]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,1.21)"
+ordering = "NONE"
+side = "BOTH"

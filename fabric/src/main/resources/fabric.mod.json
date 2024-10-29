@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "music_delay_controller",
+  "version": "${version}",
+  "name": "Music Delay Controller",
+  "description": "Control background music delay as you want",
+  "authors": [
+    "IAFEnvoy"
+  ],
+  "contact": {
+    "sources": "https://github.com/ArkTechMC/MusicDelayController"
+  },
+  "license": "MIT",
+  "icon": "logo.jpg",
+  "environment": "client",
+  "entrypoints": {
+  },
+  "mixins": [
+    "music_delay_controller.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "~1.20.1",
+    "java": "*",
+    "fabric-api": "*"
+  }
+}
